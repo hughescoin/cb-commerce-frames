@@ -9,7 +9,7 @@ This guide explain how to sell a single item using via a Cast which allows your 
 > [!TIP]
 > Be sure to set your [deposit address](https://beta.commerce.coinbase.com/settings/deposits) in the Coinbase Commerce merchant dashboard to avoid charge creation failures.
 
-2. A custom domain. Optionally, create a vercel [account](https://vercel.com/signup) for easy deployment and testing
+2. You will need a custom domain. This guide will use a vercel [account](https://vercel.com/signup) for easy deployment and testing.
 
 > [!IMPORTANT]
 > Warpcast requires your Frame to be a `https://` URL
