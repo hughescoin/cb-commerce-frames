@@ -1,15 +1,15 @@
 import { ChargeRequestBody } from '../types/commerceTypes';
 import { FrameRequest, getFrameAccountAddress, getFrameMessage } from '@coinbase/onchainkit';
 import { NextRequest } from 'next/server';
-export const NEXT_PUBLIC_URL = 'https://commerce-frame-6r9h.vercel.app';
+export const NEXT_PUBLIC_URL = 'CHANGE ME';
 export const apiKey = process.env.API_KEY;
 export const apiVersion = process.env.API_VERSION;
 export const commerceApiUrl = 'https://api.commerce.coinbase.com/charges';
-export const PRODUCT_PRICE_USD = '2.00';
-export const ITEM_DESCRIPTION = 'Exclusive Base beanies for Warpcaster users';
-export const ITEM_TITLE = 'Base Beanies';
-export const REDIRECT_URL = '';
-export const IMAGE_NAME = 'onchain.png';
+export const PRODUCT_PRICE_USD = 'CHANGE ME';
+export const ITEM_DESCRIPTION = 'YOUR PRODUCT DESCRIPTION';
+export const ITEM_TITLE = 'CHANGE ME';
+export const REDIRECT_URL = ''; //optional
+export const IMAGE_NAME = 'CHANGE ME';
 
 export const createRequestHeaders = (): Headers => {
   const headers = new Headers();
