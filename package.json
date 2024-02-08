@@ -1,6 +1,6 @@
 {
-  "name": "a-frame-in-100-lines",
-  "version": "0.1.1",
+  "name": "cb-commerce-frames",
+  "version": "0.1.0",
   "scripts": {
     "build": "rm -rf .next && next build",
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "@zizzamia",
+  "author": "@hughescoin",
   "license": "MIT",
   "dependencies": {
     "@coinbase/onchainkit": "0.3.0",
