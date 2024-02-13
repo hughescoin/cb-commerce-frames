@@ -1,11 +1,11 @@
 import { ChargeRequestBody } from '../types/commerceTypes';
 import { FrameRequest, getFrameAccountAddress, getFrameMessage } from '@coinbase/onchainkit';
 import { NextRequest } from 'next/server';
-export const NEXT_PUBLIC_URL = 'vercel.com/alex-hus-projects';
+export const NEXT_PUBLIC_URL = 'cb-commerce-frames-tau.vercel.app';
 export const apiKey = process.env.API_KEY;
 export const apiVersion = process.env.API_VERSION;
 export const commerceApiUrl = 'https://api.commerce.coinbase.com/charges';
-export const PRODUCT_PRICE_USD = '99999';
+export const PRODUCT_PRICE_USD = '0.9';
 export const ITEM_DESCRIPTION = 'The best skis in the world ever';
 export const ITEM_TITLE = 'Armada ARV 100 Skis';
 export const REDIRECT_URL = ''; //optional
