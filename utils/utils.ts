@@ -1,21 +1,21 @@
 import { ChargeRequestBody } from '../types/commerceTypes';
 import { FrameRequest, getFrameAccountAddress, getFrameMessage } from '@coinbase/onchainkit';
 import { NextRequest } from 'next/server';
-export const NEXT_PUBLIC_URL = 'CHANGE ME';
+export const NEXT_PUBLIC_URL = 'https://cb-commerce-frames-tau.vercel.app';
 export const apiKey = process.env.API_KEY;
 export const apiVersion = process.env.API_VERSION;
 export const commerceApiUrl = 'https://api.commerce.coinbase.com/charges';
-export const PRODUCT_PRICE_USD = 'CHANGE ME';
-export const ITEM_DESCRIPTION = 'YOUR PRODUCT DESCRIPTION';
-export const ITEM_TITLE = 'CHANGE ME';
+export const PRODUCT_PRICE_USD = '0.9';
+export const ITEM_DESCRIPTION = 'The best skis in the world ever ever';
+export const ITEM_TITLE = 'Armada ARV 100 Skis';
 export const REDIRECT_URL = ''; //optional
-export const IMAGE_NAME = 'CHANGE ME';
+export const IMAGE_NAME = 'ski.png';
 
 export const createRequestHeaders = (): Headers => {
   const headers = new Headers();
   headers.set('Content-Type', 'application/json');
   headers.set('Accept', 'application/json');
-  headers.set('X-CC-Api-Key', `${apiKey}`);
+  headers.set('X-CC-Api-Key', `888323c6-9439-4838-ac53-07e38d9470b2`);
   headers.set('X-CC-Version', `${apiVersion}`);
   return headers;
 };
